@@ -1,6 +1,6 @@
 package leetcode.tree;
 
-public class Problem_100_SameTree {
+public class LC_100_SameTree {
 
 
     public boolean isSameTree(TreeNode p, TreeNode q) {
