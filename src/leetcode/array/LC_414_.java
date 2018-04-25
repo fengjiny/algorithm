@@ -1,5 +1,7 @@
 package leetcode.array;
 
+import java.util.HashMap;
+import java.util.Map;
 import java.util.Set;
 import java.util.TreeSet;
 
@@ -50,5 +52,12 @@ public class LC_414_ {
             }
         }
         return max3 == null ? max1 : max3;
+    }
+
+    public static void main(String[] args) {
+        Map<Integer, Integer> map = new HashMap<>();
+        map.put(1,1);
+
+
     }
 }
