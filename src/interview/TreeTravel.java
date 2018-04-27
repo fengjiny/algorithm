@@ -4,6 +4,8 @@ import java.util.ArrayList;
 import java.util.LinkedList;
 import java.util.List;
 import java.util.Queue;
+import java.util.concurrent.ExecutorService;
+import java.util.concurrent.Executors;
 
 public class TreeTravel {
 
@@ -37,6 +39,9 @@ public class TreeTravel {
         root.childs = subList;
     }
 
+
+
+
     public static void main(String[] args) {
         MultiTree root = new MultiTree(1);
 
@@ -44,5 +49,8 @@ public class TreeTravel {
         int[] level1= {3,2,5,6,2,9};
         setChilds(root, level1);
         travel(root);
+
     }
 }
+
+
